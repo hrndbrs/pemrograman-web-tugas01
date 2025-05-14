@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./assets/css/base.css" />
+  <link rel="stylesheet" href="./assets/css/layout.css" />
+  <link rel="stylesheet" href="./assets/css/index.css" />
+  <link rel="icon" type="image/x-icon" href="./assets/imgs/favicon.ico" />
+  <script src="./assets/js/layout.js"></script>
+  <title>Maison de la Crown | Home</title>
+</head>
+
+<body>
+  <!-- NAVIGATION MENU -->
+  <nav id="topNavigation"></nav>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- HERO SECTION -->
+    <section id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators"></div>
+      <div class="carousel-inner"></div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+
+    <!-- PRODUCT SECTION -->
+    <section class="product-section px-2">
+      <div class="container p-5 rounded-4 shadow-lg">
+        <div class="text-center mx-auto gap-3 d-grid">
+          <p class="small text-brand">✦ Our Story ✦</p>
+          <h2>Culinary Excellence in Jakarta</h2>
+          <p class="text-muted">
+            Maison de la Crown is a sanctuary of fine French cuisine in the
+            heart of Jakarta. Founded in 1970 by Chef Jean-Pierre Crown, our
+            philosophy blends tradition with innovation—celebrating fresh,
+            local ingredients through refined techniques.
+          </p>
+          <div>
+            <a href="/menu.html">
+              <button class="btn btn-dark rounded-pill px-4 py-2">
+                See Our Menu
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS SECTION -->
+    <section class="review-section">
+      <div class="container">
+        <h2 class="text-center mb-5">What Our Guests Say</h2>
+        <div id="reviewsContainer" class="row"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="pageFooter"></footer>
+
+  <script src="./assets/js/index.js"></script>
+  <!-- BOOTSTRAP SCRIPT -->
+  <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>

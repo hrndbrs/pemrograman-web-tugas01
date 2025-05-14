@@ -1,0 +1,45 @@
+:root {
+  --carousel-height: calc(100dvh - var(--page-top-margin, 0));
+}
+
+#heroCarousel .carousel-inner {
+  height: var(--carousel-height);
+}
+
+#heroCarousel .carousel-inner img {
+  object-position: center;
+}
+
+#heroCarousel .carousel-indicators .active {
+  --bs-carousel-indicator-active-bg: var(--brand-color);
+}
+
+.product-section {
+  padding-block: 6rem;
+  background-image:
+    linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.95)),
+    url("../imgs/store.avif");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.product-section .container {
+  max-width: 900px;
+  background-color: white;
+}
+
+.product-section .container>* {
+  max-width: 748px;
+}
+
+.product-section h2 {
+  font-size: calc(2rem + 1vw);
+}
+
+.review-section {
+  padding-block: 6rem;
+  color: white;
+  background: linear-gradient(135deg, #111111 0%, #1f1f1f 40%, #2c2c2c 100%);
+}
