@@ -39,6 +39,9 @@ function initHero() {
     ".carousel-indicators",
   );
   const innerContainer = heroCarousel.querySelector(".carousel-inner");
+  const nav = document.getElementById("topNavigation");
+
+  innerContainer.style.height = `calc(100dvh - ${nav ? nav.scrollHeight : 0}px)`;
 
   heroImgSources.forEach((image, idx) => {
     const indicator = document.createElement("button");

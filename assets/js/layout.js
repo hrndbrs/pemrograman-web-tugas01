@@ -71,6 +71,8 @@ function initTopNavigation() {
   container.appendChild(collapseDiv);
   nav.appendChild(brandContainer);
   nav.appendChild(container);
+
+  document.body.style.marginTop = nav.scrollHeight + "px";
 }
 
 function initFooter() {

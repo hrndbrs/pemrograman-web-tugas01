@@ -25,17 +25,11 @@
 :root {
   --brand-color: #d9a760;
   --brand-font: "Imperial Script";
-  --page-top-margin: 136px;
 }
 
 body {
   font-family: "Tinos";
   font-size: 1rem;
-  margin-top: var(--page-top-margin);
-}
-
-main {
-  min-height: calc(100dvh - var(--page-top-margin));
 }
 
 .font-imperial {
